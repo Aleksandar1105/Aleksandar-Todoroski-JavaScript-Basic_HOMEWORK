@@ -9,5 +9,3 @@ const numberOfPhones = prompt('Please enter the number of phones:');
 const convertedNumberOfPhones = parseFloat(numberOfPhones);
 
 console.log('Total price for your input is: ' + '$', convertedNumberOfPhones * phoneTotalPrice);
-
-
