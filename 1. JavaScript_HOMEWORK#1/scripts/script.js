@@ -6,6 +6,8 @@ const taxRate = 0.05;
 const phoneTotalPrice = phonePrice + phonePrice * taxRate;
 
 const numberOfPhones = prompt('Please enter the number of phones:');
-const convertedNumberOfPhones = parseFloat(numberOfPhones);
+const convertedNumberOfPhones = parseInt(numberOfPhones);
 
-console.log(`Total price for your input is: $`, convertedNumberOfPhones * phoneTotalPrice);
+const totalNumberOfPhones = convertedNumberOfPhones * phoneTotalPrice;
+
+console.log(`Total price for your input is: $`, totalNumberOfPhones);
