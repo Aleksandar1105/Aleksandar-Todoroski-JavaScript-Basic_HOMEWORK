@@ -13,7 +13,7 @@ if (Number.isNaN(inputMoney) && !inputMoney) {
     console.log('You have enough money for lunch!');
 } else if (inputMoney > 500 && inputMoney <= 1000) {
     console.log('You have enough money for a trip to Ohrid!');
-} else if (inputMoney > 100 && inputMoney <= 5000) {
+} else if (inputMoney > 1000 && inputMoney <= 5000) {
     console.log('You have enough money for a new phone!');
 } else if (inputMoney > 5000 && inputMoney <= 10000) {
     console.log('You have enough money for a new laptop!');
