@@ -1,6 +1,7 @@
-const year = parseInt(prompt('Please enter your birth year:'));
+const year = prompt('Please enter your birth year:');
+const parsedYear = parseInt(year);
 
-const zodiacCalculation = (year - 4) % 12;
+const zodiacCalculation = (parsedYear - 4) % 12;
 
 if (zodiacCalculation === 0) {
     console.log('Rat');
