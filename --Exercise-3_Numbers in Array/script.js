@@ -5,7 +5,7 @@ function findNumber(number, array) {
 
     for (let i = 0; i < array.length; i++) {
         if (number === array[i]) {
-            countNumber += 1;
+            countNumber++;
         }
     }
     return countNumber;
@@ -14,5 +14,5 @@ function findNumber(number, array) {
 const inputNumber = prompt('Please enter number:');
 const convertedNumber = Number(inputNumber);
 
-console.log('There is', findNumber(convertedNumber, numArray), 'occurrences of number', convertedNumber, 'in the array');
+console.log(`There is ${findNumber(convertedNumber, numArray)} occurrences of ${convertedNumber} in the array`);
 
