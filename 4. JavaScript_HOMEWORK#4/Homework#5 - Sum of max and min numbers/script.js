@@ -13,7 +13,7 @@ function sumOfMinAndMax(array) {
     let newArray = [];
     for (let i = 0; i < array.length; i++) {
         if (typeof array[i] !== 'number' || isNaN(array[i])) {
-            newArray.splice([i], 1);
+            newArray.splice(i, 1);
         } else {
             newArray.push(array[i]);
         }
