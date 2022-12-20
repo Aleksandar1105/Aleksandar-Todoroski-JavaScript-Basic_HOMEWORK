@@ -1,0 +1,31 @@
+#recipe-ingredinets {
+  border-collapse: collapse;
+}
+
+th {
+  min-width: 300px;
+  border: 1px solid black;
+  height: 20px;
+  background-color: rgb(178, 200, 228);
+}
+
+td {
+  border: 1px solid black;
+  height: 20px;
+  font-size: 18px;
+  background-color: rgba(196, 143, 143, 0.521);
+}
+
+h1 {
+  padding: 2px;
+  margin: 2px;
+  text-align: center;
+  font-size: 24px;
+}
+
+h3 {
+  padding: 2px;
+  margin: 2px;
+  font-size: 20px;
+  font-weight: 300;
+}
