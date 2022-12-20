@@ -11,7 +11,7 @@ let nameOfRecipe = prompt('Enter the name of the recipe:');
 
 function recipePage(recipe) {
     let recipeName = document.getElementById('table-head');
-    recipeName.innerHTML = `<th><h1>${recipe}:</h1></th>`;
+    recipeName.innerHTML = `<th><h2>${recipe}:</h2></th>`;
 }
 
 let ingredientsNumber = parseInt(prompt('How many ingredients are in this recipe?'));
