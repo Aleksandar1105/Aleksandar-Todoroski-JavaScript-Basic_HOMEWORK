@@ -1,0 +1,36 @@
+table {
+  border-collapse: collapse;
+}
+
+tbody > #table-row {
+  background-color: rgba(199, 220, 230, 0.719);
+}
+
+td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+button {
+  background-color: rgba(157, 171, 177, 0.719);
+  border: none;
+  border-radius: 8px;
+  padding: 20px 30px;
+  font-size: 30px;
+  box-shadow: inset;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 10px,
+    rgba(0, 0, 0, 0.12) 0px -12px 10px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 4px 5px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
