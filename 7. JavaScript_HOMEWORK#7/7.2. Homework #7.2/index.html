@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="title">Title:</label>
+            <br>
+            <input type="text" name="title" id="title">
+        </div>
+        <div>
+            <label for="author">Author:</label>
+            <br>
+            <input type="text" name="author" id="author">
+        </div>
+        <div>
+            <label for="select">Please select the reading status of the book:</label>
+            <br>
+            <select name="book" id="select">
+                <option value="disabled" disabled selected>--Select true or false:--</option>
+                <option value="true">true</option>
+                <option value="false">false</option>
+            </select>
+        </div>
+        <br>
+        <button type="submit" id="check-btn">Check Status</button>
+    </form>
+    <p id="status"><b></b></p>
+    <script src="app.js"></script>
+</body>
+
+</html>
