@@ -1,4 +1,7 @@
 # Aleksandar-Todoroski-JAVASCRIPT-HOMEWORK
  
- 
-Create recipe: https://chimerical-custard-dc8fcd.netlify.app/
+LIVE PREVIEW:
+
+Create recipe: https://create-recipe.netlify.app/
+
+Hangman game: https://hangman2023.netlify.app/
