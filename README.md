@@ -2,6 +2,6 @@
  
 LIVE PREVIEW:
 
-Create recipe: https://chimerical-custard-dc8fcd.netlify.app/
+Create recipe: https://create-recipe.netlify.app/
 
 Hangman game: https://hangman2023.netlify.app/
