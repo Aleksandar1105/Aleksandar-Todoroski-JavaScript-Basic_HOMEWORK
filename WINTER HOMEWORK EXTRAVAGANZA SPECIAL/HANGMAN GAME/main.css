@@ -138,3 +138,46 @@ h2 {
   font-weight: 900;
   font-size: 18px;
 }
+
+/* MOBILE DEVICE */
+@media screen and (max-width: 600px) {
+  *,
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h1,
+  h2,
+  .instruction {
+    padding: 30px 0;
+  }
+
+  body {
+    height: 100vh;
+  }
+
+  #app-container {
+    border-radius: 0;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0;
+  }
+
+  #letter-input {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  #canvas {
+    border: 1px solid black;
+    margin: 40px;
+  }
+}
