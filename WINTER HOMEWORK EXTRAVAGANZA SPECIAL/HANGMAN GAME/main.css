@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
 
 :root {
   --color-white: #ffffff;
@@ -18,7 +18,7 @@
   --color-input-letters: #ffdd59;
   --color-shadow: rgba(99, 110, 114, 0.15);
   --color-shadow-2: rgba(78, 114, 128, 0.28);
-  --font-display: "Rowdies", cursive;
+  --font-display: "Overlock", cursive;
 }
 
 #app-container {
@@ -152,7 +152,8 @@ h2 {
   h1,
   h2,
   .instruction {
-    padding: 30px 0;
+    padding: 5px;
+    margin: 5px;
   }
 
   body {
@@ -172,12 +173,20 @@ h2 {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin-top: 20px;
-    margin-bottom: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   #canvas {
     border: 1px solid black;
     margin: 40px;
+    margin-top: 10px;
+  }
+
+  #hint-button,
+  #play-again {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0 10px;
   }
 }
