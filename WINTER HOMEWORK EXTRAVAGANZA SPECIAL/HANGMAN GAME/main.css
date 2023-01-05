@@ -1,0 +1,140 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap");
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #1e272e;
+  --color-lightgrey: #d2dae2;
+  --color-darkgrey: #808e9b;
+  --color-win: #3c40c6;
+  --color-lose: #ff3f34;
+  --color-input-letters: #ffdd59;
+  --color-shadow: rgba(99, 110, 114, 0.15);
+  --color-shadow-2: rgba(78, 114, 128, 0.28);
+  --font-display: "Rowdies", cursive;
+}
+
+#app-container {
+  font-family: var(--font-display);
+  border: 1px solid var(--color-black);
+  border-radius: 8px;
+  box-shadow: 1px 1px 8px 4px rgba(0, 0, 0, 0.84);
+  background-color: var(--color-lightgrey);
+  width: 800px;
+  height: 600px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+h1,
+h2,
+.instruction {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.instruction {
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+#letter-input {
+  background-color: var(--color-lightgrey);
+  margin: auto;
+  /* border: 1px solid var(--color-darkgrey); */
+  border-radius: 8px;
+  width: 680px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.guess-letter {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 900;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  /* border: 2px solid var(--color-black); */
+}
+
+#chosen-category {
+  text-align: center;
+}
+
+#user-input {
+  text-align: center;
+}
+
+.dashes {
+  margin: 3px;
+  font-size: 24px;
+}
+
+#lives-count {
+  text-align: center;
+}
+
+.lose-msg {
+  color: var(--color-lose);
+  margin: 3px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.win-msg {
+  color: var(--color-win);
+  margin: 3px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#hint-text {
+  text-align: center;
+}
+
+.but-newgame-hint {
+  display: flex;
+  justify-content: center;
+}
+
+.win-text {
+  text-align: center;
+  margin: 200px auto;
+  font-size: 30px;
+}
+
+#canvas {
+  border: 1px solid black;
+  margin: auto;
+}
+
+#hint-button,
+#play-again {
+  width: 120px;
+  height: 40px;
+  margin: 10px;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 18px;
+}

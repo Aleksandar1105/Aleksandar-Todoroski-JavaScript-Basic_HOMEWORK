@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="app-container">
+    <h1>HANGMAN</h1>
+    <h2>VANILLA JAVASCRIPT HANGMAN GAME</h2>
+    <p class="instruction">Use the alphabet below to guess the word, or click hint to get a clue.</p>
+    <div id="letter-input"></div>
+    <p id="chosen-category">The Chosen Category is</p>
+    <div id="user-input"></div>
+    <div id="lives-count">You have <b><span class="lives-left"></span></b> lives left</div>
+    <div id="hint-text">Clue - </div>
+    <canvas id="canvas"></canvas>
+    <div class="but-newgame-hint">
+      <button id="hint-button">Hint</button>
+      <button id="play-again">Play again</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
