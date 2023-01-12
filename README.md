@@ -1,4 +1,4 @@
-# Aleksandar-Todoroski-JAVASCRIPT-HOMEWORK
+# Aleksandar-Todoroski-JavaScript Basic_HOMEWORK
  
 LIVE PREVIEW:
 
