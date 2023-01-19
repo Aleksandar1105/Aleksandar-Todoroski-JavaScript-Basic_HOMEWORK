@@ -1,7 +1,7 @@
-# Aleksandar-Todoroski-JavaScript Basic_HOMEWORK
+# JavaScript Basic_HOMEWORK
  
 LIVE PREVIEW:
 
-Create recipe: https://create-recipe.netlify.app/
+1. Create recipe: https://create-recipe.netlify.app/
 
-Hangman game: https://hangman-sedc-2023.netlify.app/
+2. Hangman game: https://hangman-sedc-2023.netlify.app/
